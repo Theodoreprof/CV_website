@@ -2,11 +2,11 @@ import React from 'react'
 
 const experience = () => {
   return (
-    <div>
+    <section id='experience'>
 
         experience
 
-    </div>
+    </section>
   )
 }
 

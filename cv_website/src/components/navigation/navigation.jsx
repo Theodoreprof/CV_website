@@ -10,9 +10,9 @@ import {BsTelephone} from 'react-icons/bs'
 const navigation = () => {
   return (
     <nav>
-        <a href='https://react-icons.github.io/react-icons'><RiHomeLine/></a>
-        <a href='https://react-icons.github.io/react-icons'><AiOutlineUser/></a>
-        <a href='https://react-icons.github.io/react-icons'><BsBriefcase/></a>
+        <a href='#header'><RiHomeLine/></a>
+        <a href='#about'><AiOutlineUser/></a>
+        <a href='#experience'><BsBriefcase/></a>
         <a href='https://react-icons.github.io/react-icons'><HiOutlineCode/></a>
         <a href='https://react-icons.github.io/react-icons'><BiGame/></a>
         <a href='https://react-icons.github.io/react-icons'><BsTelephone/></a>

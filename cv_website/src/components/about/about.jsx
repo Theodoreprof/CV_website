@@ -3,11 +3,11 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div>
+    <section id='about'>
         
         about
 
-    </div>
+    </section>
   )
 }
 

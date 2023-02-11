@@ -4,7 +4,7 @@ import './header.css'
 
 const navigation = () => {
   return (
-    <header>
+    <header id='header'>
         <div className='container header__container'>
         <h4>Hello I'm</h4>
         <h1>Theodore Dimopoulos</h1>
