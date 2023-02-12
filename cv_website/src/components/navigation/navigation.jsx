@@ -13,9 +13,9 @@ const navigation = () => {
         <a href='#header'><RiHomeLine/></a>
         <a href='#about'><AiOutlineUser/></a>
         <a href='#experience'><BsBriefcase/></a>
-        <a href='https://react-icons.github.io/react-icons'><HiOutlineCode/></a>
-        <a href='https://react-icons.github.io/react-icons'><BiGame/></a>
-        <a href='https://react-icons.github.io/react-icons'><BsTelephone/></a>
+        <a href='#portfolio'><HiOutlineCode/></a>
+        <a href='#hobbies'><BiGame/></a>
+        <a href='#contact'><BsTelephone/></a>
     </nav>
   )
 }
