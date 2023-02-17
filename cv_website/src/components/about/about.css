@@ -13,6 +13,12 @@
     place-items: center;
 }
 
+.about__content {
+    margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
@@ -61,7 +67,19 @@
     font-size: 0.9rem;
 }
 
-.about__container p {
+.about__content p {
     color: var(--color-light);
     margin-bottom: 1.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
 }
