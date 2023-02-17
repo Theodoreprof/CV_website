@@ -26,3 +26,11 @@ nav a:hover {
     color: var(--color-primary);
 }
 
+
+@media screen and (max-width: 1250px) {
+    nav{
+        padding: 0.5rem 1.3rem;
+        bottom: 1rem;
+        gap: 0.6rem;
+    }
+}
