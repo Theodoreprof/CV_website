@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px), (max-height: 750px) {
     nav{
         padding: 0.5rem 1.3rem;
         bottom: 1rem;

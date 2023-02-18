@@ -27,3 +27,19 @@ header h3 {
     margin-top: 20px;
     color: var(--color-light)
 }
+
+
+@media screen and (max-width: 1250px), (max-height: 750px) {
+ header {
+    padding-top: 2rem;
+ }
+
+ header h1 {
+    font-size: 2rem;
+ }
+
+ .cta {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+ }
+}
