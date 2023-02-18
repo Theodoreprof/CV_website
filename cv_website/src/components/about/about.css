@@ -72,6 +72,14 @@
     margin-bottom: 1.5rem;
 }
 
+section h5 {
+    font-size: 0.8rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+}
+
 
 @media screen and (max-width: 1024px) {
     .about__container {

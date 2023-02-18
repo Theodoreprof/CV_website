@@ -107,6 +107,8 @@ a:hover {
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+    border-radius: 0.7rem;
+    padding: 0.8rem;
 }
 
 img {
