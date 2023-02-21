@@ -14,29 +14,48 @@ const experience = () => {
             <h3>Frontend Development</h3>
             <div className='experience__content'>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+                <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
             </div>
           </div>
@@ -44,29 +63,46 @@ const experience = () => {
           <h3>Backend Development</h3>
             <div className='experience__content'>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
               <article className='experience__details'>
-                <MdOutlineVerified />
-                <h4>Lorem</h4>
-                <small className='text-light'>Lorem Ipsum</small>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+              <MdOutlineVerified className='experience__details-icon'/>
+                <div>
+                  <h4>Lorem</h4>
+                  <small className='text-light'>Lorem Ipsum</small>
+                </div>
               </article>
             </div>
           </div>
