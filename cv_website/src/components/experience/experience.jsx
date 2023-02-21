@@ -40,6 +40,36 @@ const experience = () => {
               </article>
             </div>
           </div>
+          <div className='experience__backend'>
+          <h3>Backend Development</h3>
+            <div className='experience__content'>
+              <article className='experience__details'>
+                <MdOutlineVerified />
+                <h4>Lorem</h4>
+                <small className='text-light'>Lorem Ipsum</small>
+              </article>
+              <article className='experience__details'>
+                <MdOutlineVerified />
+                <h4>Lorem</h4>
+                <small className='text-light'>Lorem Ipsum</small>
+              </article>
+              <article className='experience__details'>
+                <MdOutlineVerified />
+                <h4>Lorem</h4>
+                <small className='text-light'>Lorem Ipsum</small>
+              </article>
+              <article className='experience__details'>
+                <MdOutlineVerified />
+                <h4>Lorem</h4>
+                <small className='text-light'>Lorem Ipsum</small>
+              </article>
+              <article className='experience__details'>
+                <MdOutlineVerified />
+                <h4>Lorem</h4>
+                <small className='text-light'>Lorem Ipsum</small>
+              </article>
+            </div>
+          </div>
         </div>
 
     </section>
