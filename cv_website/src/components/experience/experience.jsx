@@ -1,5 +1,6 @@
 import React from 'react'
-import {GrFormCheckmark} from 'react-icons/gr'
+import {FiCheck} from 'react-icons/fi'
+import './experience.css'
 
 const experience = () => {
   return (
@@ -15,27 +16,29 @@ const experience = () => {
 
                 <div className='experience__head'>
                     <h3>Lorem Ipsum</h3>
+                    <h4>asdasdasdasd</h4>
+                    <h4>asdasdasdasd</h4>
                 </div>
 
                 <ul className='experience__list'>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                 </ul>
@@ -46,27 +49,29 @@ const experience = () => {
 
                 <div className='experience__head'>
                     <h3>Lorem Ipsum</h3>
+                    <h4>asdasdasdasd</h4>
+                    <h4>asdasdasdasd</h4>
                 </div>
 
                 <ul className='experience__list'>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                 </ul>
@@ -77,27 +82,29 @@ const experience = () => {
 
                 <div className='experience__head'>
                     <h3>Lorem Ipsum</h3>
+                    <h4>asdasdasdasd</h4>
+                    <h4>asdasdasdasd</h4>
                 </div>
 
                 <ul className='experience__list'>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                     <li>
-                        <GrFormCheckmark className='experience__list-icon'/>
+                        <FiCheck className='experience__list-icon'/>
                         <p>Lorem asdasdasdas djdsf n;dasjnf;sdnfkjanfkjnfk;jwnaefndkjnfkajsfd</p>
                     </li>
                 </ul>
