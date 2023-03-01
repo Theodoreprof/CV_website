@@ -20,7 +20,7 @@
 }
 
 .experience__head {
-    background: var(--color-primary);
+    background: #1ec935;
     padding: 2rem;
     border-radius: 0.3rem 0.3rem 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
@@ -29,7 +29,11 @@
 
 .experience__head h3 {
     color: var(--color-bg);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.experience__head h4 {
+    color: var(--color-bg);
 }
 
 .experience__list {
