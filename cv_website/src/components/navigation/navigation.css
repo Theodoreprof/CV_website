@@ -36,3 +36,10 @@ nav a:hover {
         gap: 0.6rem;
     }
 }
+
+@media screen and (max-width: 600px) {
+    nav{
+        gap: 0.5rem;
+        padding: 0.5rem 1.1rem;
+    }
+}
