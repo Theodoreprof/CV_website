@@ -4,7 +4,7 @@ import {MdOutlineVerified} from 'react-icons/md'
 
 const skills = () => {
   return (
-    <section id='skills'>
+    <section id='skills' className='skills__section'>
 
         <h5>What Skills I Have</h5>
         <h2>My skills</h2>

@@ -4,6 +4,10 @@
     gap: 20%;
 }
 
+.about__section {
+    height: 950px;
+}
+
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -94,6 +98,10 @@ section h2 {
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about__section {
+        height: 1100px;
     }
 }
 

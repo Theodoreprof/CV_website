@@ -7,7 +7,7 @@
 }
 
 .experience__section {
-    height: 600px;
+    height: 700px;
 }
 
 .experience {
@@ -92,5 +92,11 @@
 
     .experience__section {
         height: 1600px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .experience__section {
+        height: 1800px;
     }
 }
