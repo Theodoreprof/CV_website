@@ -1,5 +1,5 @@
 .portfolio__section {
-    min-height: 1100px;
+    height: 1100px;
 }
 
 .portfolio__container {
@@ -30,4 +30,70 @@
 .portfolio__item-image {
     overflow: hidden;
     border-radius: 1.5em;
+}
+
+@media screen and (max-width: 1700px) {
+    .portfolio__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .portfolio__section {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .portfolio__section {
+        height: 1600px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+    .portfolio__section {
+        height: 3700px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        max-width: 80%;
+    }
+
+    .portfolio__section {
+        height: 3500px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .portfolio__section {
+        height: 3300px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .portfolio__section {
+        height: 3200px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .portfolio__section {
+        height: 2700px;
+    }
 }
