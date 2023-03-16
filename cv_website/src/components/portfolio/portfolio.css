@@ -1,7 +1,17 @@
+.portfolio__section {
+    min-height: 1100px;
+}
+
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+    align-content: center;
+    max-width: 80%;
+}
+
+.portfolio__container h3 {
+    padding: 1rem;
 }
 
 .portfolio__item {
@@ -15,4 +25,9 @@
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+}
+
+.portfolio__item-image {
+    overflow: hidden;
+    border-radius: 1.5em;
 }
