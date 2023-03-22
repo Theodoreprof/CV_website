@@ -3,6 +3,7 @@ import '../contact/contact.css'
 import {AiOutlineMail} from "react-icons/ai"
 import {AiFillGithub} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
+import {AiOutlineSend} from "react-icons/ai"
 
 const contact = () => {
   return (
@@ -32,7 +33,12 @@ const contact = () => {
               <a href="mailto:theo.dhmopoulos@gmail.com">Send a message</a>
             </article>
           </div>
-          <form action=""></form>
+          <form action="">
+            <input type="text" name='name' placeholder='Your Full Name' required />
+            <input type="email" name='email' placeholder='Your Email' required />
+            <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+            <button type="submit" className="btn btn_primary">Send  <AiOutlineSend/></button>
+          </form>
         </div>
         
     </section>
