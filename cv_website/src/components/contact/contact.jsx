@@ -4,10 +4,26 @@ import {AiOutlineMail} from "react-icons/ai"
 import {AiFillGithub} from "react-icons/ai"
 import {AiFillLinkedin} from "react-icons/ai"
 import {AiOutlineSend} from "react-icons/ai"
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
   return (
-    <section id='contact'>
+    <section id='contact' className='contact_section'>
 
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>
@@ -33,7 +49,7 @@ const contact = () => {
               <a href="mailto:theo.dhmopoulos@gmail.com">Send a message</a>
             </article>
           </div>
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your Full Name' required />
             <input type="email" name='email' placeholder='Your Email' required />
             <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
