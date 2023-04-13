@@ -20,8 +20,9 @@ const navigation = () => {
           
         </div>
         
-        <div className='container header__image'>
+        <div className='header__image'>
           <img src={ME} alt="" />
+          <center>/* This photo is enhanced with AI and i thing its cool */</center>
         </div>
 
     </header>
