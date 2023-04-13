@@ -3,26 +3,21 @@ import './header.css'
 import {FaFacebookF} from 'react-icons/fa'
 import ME from '../../assets/hero_image.png'
 import Typed from 'typed.js'
-
-function MyComponent() {
-  const el = React.useRef(null);
-
-  React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      string: ["fullstack developer", "sadasdasd", "asdasdasd"],
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 1000,
-      loop: true
-    });
-
-    return () => {
-      typed.el();
-    };
-  }, []);
-}
+import { useEffect, useRef } from 'react'
 
 const navigation = () => {
+
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Full-stack developer', 'Graphic Designer', 'Part-Time real lifer'],
+      typeSpeed: 50,
+      loop: true,
+      cursorChar: ']',
+    });
+  })
+
   return (
     
     <header id='header'>
