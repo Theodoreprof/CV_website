@@ -15,3 +15,38 @@ header {
 .header__info {
     max-width: 600px;
 }
+
+.header__info h1 {
+    font-size: 70px;
+    color: var(--color-primary);
+}
+
+.header__info h2 {
+    font-size: 30px;
+}
+
+.header__info h2 {
+    padding-top: 20px;
+}
+
+.social__icons a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px 30px 0;
+    transition: var(--transition);
+}
+
+.social__icons a:hover {
+    background-color: var(--color-primary);
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
