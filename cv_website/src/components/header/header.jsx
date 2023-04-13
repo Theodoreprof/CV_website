@@ -11,9 +11,8 @@ const navigation = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Full-stack developer', 'Graphic Designer', 'Part-Time real lifer'],
-      typeSpeed: 50,
-      loop: true,
+      strings: ['Graphic Designer', 'Part-Time real lifer', 'Full-stack developer' ],
+      typeSpeed: 100,
       cursorChar: ']',
     });
   })
