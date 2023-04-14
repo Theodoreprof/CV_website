@@ -7,7 +7,7 @@ import {AiOutlineSend} from "react-icons/ai"
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -64,4 +64,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

@@ -5,7 +5,7 @@ import ME from '../../assets/hero_image.png'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
 
-const navigation = () => {
+const Navigation = () => {
 
   const el = useRef(null);
 
@@ -42,4 +42,4 @@ const navigation = () => {
 }
 
 
-export default navigation
+export default Navigation
