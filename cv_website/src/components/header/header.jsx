@@ -13,6 +13,8 @@ const Navigation = () => {
     const typed = new Typed(el.current, {
       strings: ['Graphic Designer', 'Part-Time real lifer', 'Full-stack developer' ],
       typeSpeed: 100,
+      backSpeed: 30,
+      loop: true,
       cursorChar: ']',
     });
   })
