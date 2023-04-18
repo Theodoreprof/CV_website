@@ -5,7 +5,7 @@ import ME from '../../assets/hero_image.png'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
 
-const navigation = () => {
+const Navigation = () => {
 
   const el = useRef(null);
 
@@ -13,6 +13,8 @@ const navigation = () => {
     const typed = new Typed(el.current, {
       strings: ['Graphic Designer', 'Part-Time real lifer', 'Full-stack developer' ],
       typeSpeed: 100,
+      backSpeed: 30,
+      loop: true,
       cursorChar: ']',
     });
   })
@@ -42,4 +44,4 @@ const navigation = () => {
 }
 
 
-export default navigation
+export default Navigation
