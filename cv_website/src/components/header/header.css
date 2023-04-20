@@ -91,4 +91,16 @@
     .header__container {
         grid-template-columns: 1fr;
     }
+
+    #header {
+        height: 1200px;
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header {
+        height: 1000px;
+        padding: 10%;
+    }
 }
