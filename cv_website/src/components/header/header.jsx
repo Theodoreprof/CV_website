@@ -21,8 +21,9 @@ const Navigation = () => {
 
   return (
     
-    <header id='header'>
-        <div className='container header__info'>
+    <section id='header'>
+      <div className="container header__container">
+        <div className='header__info'>
           <h3>Hello, It's Me</h3>
           <h1>Theodore Dimopoulos</h1>
           <h2>And I'm a <span ref={el} /></h2>
@@ -39,7 +40,8 @@ const Navigation = () => {
           <img src={ME} alt="" />
           <center>/* This photo is enhanced with AI and i thing its cool */</center>
         </div>
-    </header>
+      </div>
+    </section>
   )
 }
 
