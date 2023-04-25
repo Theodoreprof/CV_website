@@ -1,5 +1,5 @@
 #header {
-    height: 100vh;
+    height: 90vh;
 }
 
 .header__container {
@@ -85,6 +85,11 @@
     .header__info h1 {
         font-size: 50px;
     }
+
+    #header {
+        height: 550px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {

@@ -84,6 +84,17 @@ section h2 {
     font-size: 1.8rem;
 }
 
+@media screen and (max-width: 1950px) {
+    .about__section {
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .about__section {
+        height: 550px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .about__container {
