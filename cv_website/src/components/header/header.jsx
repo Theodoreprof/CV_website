@@ -38,7 +38,7 @@ const Navigation = () => {
         
         <div className='header__image'>
           <img src={ME} alt="" />
-          <center>/* This photo is enhanced with AI and i thing its cool */</center>
+          <center>/* This photo is enhanced with AI and i think it's cool */</center>
         </div>
       </div>
     </section>
