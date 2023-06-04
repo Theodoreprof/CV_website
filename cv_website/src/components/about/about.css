@@ -5,7 +5,8 @@
 }
 
 .about__section {
-    height: 760px;
+    height: 850px;
+    padding-top: 120px;
 }
 
 .about__me {
@@ -86,13 +87,13 @@ section h2 {
 
 @media screen and (max-width: 1950px) {
     .about__section {
-        height: 550px;
+        height: 600px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .about__section {
-        height: 550px;
+        height: 660px;
     }
 }
 
@@ -113,6 +114,7 @@ section h2 {
 
     .about__section {
         height: 1100px;
+        padding-top: 60px;
     }
 }
 
